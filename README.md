@@ -47,3 +47,45 @@ mupician
 # 今後の課題
 
 # DB設計
+
+## users テーブル
+
+| Column     | Type   | Options     |
+| ---------- | ------ | ----------- |
+| nickname   | string | null: false |
+| email      | string | null: false |
+| password   | string | null: false |
+
+### Association
+
+- has_many :tweets
+- has_many :comments
+
+
+## tweets テーブル
+
+| Column     | Type       | Options                        |
+| ---------- | ---------- | ------------------------------ |
+| text       | string     | null: false                    |
+| musician   | string     | null: false                    |
+| music      | string     | null: false                    |
+| user       | references | null: false, foreign_key: true |
+
+### Association
+- has_many :comments
+- belongs_to :user
+
+
+
+## comments テーブル
+
+| Column     | Type       | Options                        |
+| ---------- | ---------- | ------------------------------ |
+| text       | text       | null: false                    |
+| user       | references | null: false, foreign_key: true |
+| tweet      | references | null: false, foreign_key: true |
+
+### Association
+- belongs_to :user
+- belongs_to :tweet
+
