@@ -8,4 +8,5 @@ class Tweet < ApplicationRecord
     validates :music
     validates :image
     validates :audio
+  end  
 end
