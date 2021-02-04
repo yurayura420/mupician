@@ -7,5 +7,5 @@ class Tweet < ApplicationRecord
     validates :musician
     validates :music
     validates :image
-    varidates :audio
+    validates :audio
 end
