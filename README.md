@@ -69,6 +69,7 @@ mupician
 | text       | string     | null: false                    |
 | musician   | string     | null: false                    |
 | music      | string     | null: false                    |
+| image      | string     | null: false                    |
 | user       | references | null: false, foreign_key: true |
 
 ### Association
