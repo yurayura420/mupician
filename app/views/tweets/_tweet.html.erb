@@ -15,7 +15,9 @@
       <% end %>
     </ul>
   </div>
-  <p><%= tweet.text %></p>
+  <p><%= tweet.musician%>  <%= tweet.music%>  <%= tweet.text %> <%= audio_tag url_for(tweet.audio), controls: true %></p>
+  
+  
   <span class="name">
     <a href="/users/<%= tweet.user.id %>">
       <span>投稿者</span><%= tweet.user.nickname %>
