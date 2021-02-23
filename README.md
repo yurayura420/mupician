@@ -46,10 +46,10 @@ audioファイルをactivestorageで管理して写真はurlによる管理と�
 
 
 # 開発環境
-
+ruby on rails,HTML,CSS,Java Script,Git Hub,My SQL,heroku,Rspec,VScode
 
 # 今後の課題
-
+投稿内のアーティスト名を、その文字列をグーグル検索したページへのリンクにすることでさらに利便性を高めたい。
 # DB設計
 
 ## users テーブル
