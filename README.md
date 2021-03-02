@@ -31,7 +31,7 @@ mupician
 ユーザーの投稿を閲覧することでミュージシャンの曲とビジュアルを認識することができ、それにより新たに興味を持つミュージシャンを増やしていくことができる。
 
 # 本番環境
-https://mupician.herokuapp.com/
+https://mupician.herokuapp.com/ (herokuが二十四時間ごとに再起動されるため、audioファイルがアップされてから時間が経つと消えている可能性があります）)
 Email test@exsample
 password aaaaaa
 
