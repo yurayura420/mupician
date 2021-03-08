@@ -1,7 +1,7 @@
 class SearchTweetsService
-  def self.search    
-    if serch != ""
-      Tweet.where('text LIKE(?)',"%#{search}%")
+  def self.search(search)    
+    if search != ""
+      Tweet.where('musician LIKE(?)',"%#{search}%")
     else  
       Tweet.all
     end
