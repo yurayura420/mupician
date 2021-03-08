@@ -50,6 +50,7 @@ ruby on rails,HTML,CSS,Java Script,Git Hub,My SQL,heroku,Rspec,VScode
 # 今後の課題
 投稿内のアーティスト名を、その文字列をグーグル検索したページへのリンクにすることでさらに利便性を高めたいです。
 また、マイページの画面も作成したいです。
+AWSを用いてherokuの再起動後もオーディオを再生できるようにしたいです。
 # DB設計
 
 ## users テーブル
